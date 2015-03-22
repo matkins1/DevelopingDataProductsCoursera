@@ -1,0 +1,63 @@
+---
+title       : Developing Data Products
+subtitle    : Course Project
+author      : Michael Atkins
+job         : Coursera Class-Taker
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [bootstrap,quiz]  # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Purpose of Shiny Application
+The date is:
+```{r, display date, echo=FALSE}
+Sys.Date()
+```
+
+Thank you for taking the time to listen to my pitch for the Shiny app that was created in conjunction with the Coursera Developing Data Products Course Project. I have created an application that returns the average life expectancy (averaged between male and female genders) of a person in the United States using the input of current age. This app is useful as a quick lookup tool for an average life expectancy without having to search for an actuarial table.
+
+--- .class #id 
+
+## Data Used
+
+The life expectancy data used to create this app was obtained from http://www.ssa.gov/oact/STATS/table4c6.html on March 20, 2015 which is an actuarial table containing data on remaining life expectancies of males and females, aged 0 to 119, in the United States as of 2010.
+
+--- .class #id 
+
+## Code Used
+
+The code utilized for this Shiny app is simple and takes an input in the form of an integer between 0 and 119 (the limits of the life expectancy table data used) and returns the life expectancy for males and females of that age and averages the result. 
+
+--- .class #id 
+
+## Location of Shiny Application
+
+The application was published at: 
+
+https://matkins1.shinyapps.io/DevelopingDataProductsCourseraCP/
+
+The code for the application is located at:
+
+https://github.com/matkins1/DevelopingDataProductsCoursera
+
+The Github repo contains a brief readme and the code itself contains comments throughout.
+
+--- &radio
+## Feedback 
+
+Do you think that this Shiny app is useful?
+
+1. _Yes_
+
+2. No
+
+3. Indeterminate
+
+*** .hint
+The answer is 'yes'
+
+*** .explanation
+Of course the answer is 'yes'!
